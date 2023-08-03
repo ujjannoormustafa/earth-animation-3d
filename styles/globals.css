@@ -1,13 +1,33 @@
-html,
 body {
-  padding: 0;
-  margin: 0;
-  background-color: black;
+  background-color: #000;
 }
 
 .globe {
   display: grid;
   place-items: center;
-  height: 100vh;
+  height: 40vh;
+  width: 30%;
   cursor: grabbing;
+  margin: 2%;
+}
+.gridBox{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+
+}
+
+ .line{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ 
+}
+.box{
+  margin: 15px 60px;
+  font-size: 52px;
+}
+.box img{
+  width: 230px;
 }
